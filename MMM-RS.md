@@ -7,3 +7,7 @@ In this paper, we propose a Multi-modal, Multi-GSD, Multi-scene Remote Sensing (
 We designed methods to obtain images with different GSD and various environmental conditions (e.g., low-light, foggy) in a single sample. Through extensive manual screening and refining annotations, we ultimately obtained the MMM-RS dataset, comprising approximately 2.1 million text-image pairs.
 
 Extensive experimental results verify that our proposed MMM-RS dataset allows off-the-shelf diffusion models to generate diverse RS images across various modalities, scenes, weather conditions, and GSD.
+
+
+Our data set baidu network backup link: https://pan.baidu.com/s/1u-NbGANT7dSoccXDHthhSw?pwd=1234
+Or you can use quark web disk:
