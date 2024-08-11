@@ -7,22 +7,21 @@
 ![image](images/1.jpg)
 
 ### MMM-RS dataset statistics from different aspects
-![image](https://github.com/user-attachments/assets/ee6def45-d532-40de-a9c2-3a76b4be0bf9)
+![image](images/2.jpg)
 
 ### The framework of information-rich text prompt generation
-![image](https://github.com/user-attachments/assets/8f0567c9-96a1-4085-9f61-c5580fa05867)
+![image](images/3.jpg)
 
 ### The framework of Multi-scene Remote Sensing Image Synthesis
-![image](https://github.com/user-attachments/assets/ebbba53a-a396-4430-b456-4303b8c49428)
+![image](images/4.jpg)
 
 ### A example for generating different GSD images for the same sample
-![image](https://github.com/user-attachments/assets/0ffb78ee-2399-415c-ab03-78196177420f)
+![image](images/5.jpg)
 
 ### RS image generation and cross-model generation
-![image](https://github.com/user-attachments/assets/24764fda-dd77-4f60-8dcb-eed741304e26)
-![image](https://github.com/user-attachments/assets/ad8b643d-c293-4a02-bd21-585a1c972d77)
-![image](https://github.com/user-attachments/assets/eba5d3cb-58cd-4491-bc24-f8860ea93195)
-
+![image](images/6.jpg)
+![image](images/7.jpg)
+![image](images/8.jpg)
 ## Dataset Link
 
   Our data set baidu network backup link: https://pan.baidu.com/s/1u-NbGANT7dSoccXDHthhSw?pwd=1234 
