@@ -41,13 +41,30 @@ Download the MMM-RS.zip file from the link provided below. The data set director
 ```
 The weather folder is divided into three weather folders, and the corresponding prompt word json description file. WHU-OPT-SAR and SEN1-2 have their respective modal classification folders and json files, and the remaining folders are a combination of image folders and json descriptions of the prompt words.
 
-Dataset composition
-  “`markdown
-| 列1    | 列2    | 列3   |
-|——|——|—–|
-| 内容1  | 内容2  | 内容3 |
-| 内容4  | 内容5  | 内容6 |
-“`
+###Dataset composition
+
+| 数据集名称        | 图像类型 | 图像数量 |
+|-----------------|----------|---------|
+| fMoW            | RGB      | 930,000 |
+| TGRS-HRRSD      | RGB      | 21,761  |
+| GID             | RGB      | 31,500  |
+| NaSC-TG2        | RGB      | 20,000  |
+| MRSSC2.0        | RGB      | 6,155   |
+| Inria           | RGB      | 2,872   |
+| HRSC2016        | RGB      | 1,680   |
+| **WHU-OPT-SAR** |          |         |
+| WHU_RGB         | RGB      | 7,000   |
+| WHU_SAR         | SAR      | 7,000   |
+| WHU_NIR         | NIR      | 7,000   |
+| **SEN1-2**      |          |         |
+| SEN1-2_RGB      | RGB      | 280,000 |
+| SEN1-2_SAR      | SAR      | 280,000 |
+| **weather**     |          |         |
+| snowy           | RGB      | 10,000  |
+| night           | RGB      | 10,000  |
+| fog             | RGB      | 10,000  |
+
+
 ### Data set annotation format
 ![image](images/1.jpg)
 
