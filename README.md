@@ -43,7 +43,7 @@ The weather folder is divided into three weather folders, and the corresponding 
 
 ### Dataset composition
 
-| 数据集名称        | 图像类型 | 图像数量 |
+| Dataset       | Image modality | Image quantity |
 |-----------------|----------|---------|
 | fMoW            | RGB      | 930,000 |
 | TGRS-HRRSD      | RGB      | 21,761  |
