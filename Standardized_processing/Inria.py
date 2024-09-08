@@ -1,3 +1,5 @@
+#Download Inria dataset from https://project.inria.fr/aerialimagelabeling/
+
 from PIL import Image
 import os
 from tqdm import tqdm
