@@ -1,3 +1,5 @@
+#download dataset from https://github.com/CrazyStoneonRoad/TGRS-HRRSD-Dataset
+
 import os
 import warnings
 from PIL import Image
