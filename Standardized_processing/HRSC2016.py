@@ -1,3 +1,5 @@
+##download dataset from https://sites.google.com/site/hrsc2016/
+
 import os
 import warnings
 from PIL import Image
