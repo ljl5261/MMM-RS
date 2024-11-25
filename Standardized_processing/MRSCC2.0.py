@@ -11,7 +11,7 @@ from basicsr.archs.rrdbnet_arch import RRDBNet
 # 初始化Real-ESRGAN
 upsampler = RealESRGANer(
     scale=2,  # 将超分辨率倍数设置为2
-    model_path='chaofenbianlv_pth/RealESRGAN_x4plus.pth',  # 更新为实际的模型路径
+    model_path='chaofenbianlv_pth/RealESRGAN_x2plus.pth',  # 更新为实际的模型路径
     model=RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=2),  # 对应的scale设置为2
     tile=0,
     tile_pad=10,
