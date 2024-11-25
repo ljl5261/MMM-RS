@@ -13,7 +13,7 @@ def initialize_upsampler(gpu_id):
     return RealESRGANer(
         scale=4,
         model_path='./MMM_RS_dataset/chaofenbianlv_pth/RealESRGAN_x2plus.pth',  # 更新为实际的模型路径
-        model=RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=4),
+        model=RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=2),
         tile=0,
         tile_pad=10,
         pre_pad=0,
