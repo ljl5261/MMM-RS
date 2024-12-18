@@ -1,4 +1,4 @@
-#On the https://github.com/fMoW/dataset download fmow - RGB/train data
+#On the https://github.com/fMoW/dataset download fmow - RGB/train-1,train-2,train-3 data
 import os
 from PIL import Image
 from tqdm import tqdm
