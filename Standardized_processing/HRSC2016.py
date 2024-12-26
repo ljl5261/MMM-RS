@@ -59,7 +59,7 @@ def process_image(image, target_size=(512, 512)):
 
 def process_images(input_folder, output_folder):
     os.makedirs(output_folder, exist_ok=True)
-    image_files = [f for f in os.listdir(input_folder) if f.lower().endswith(('jpg', 'jpeg', 'png', 'tif', 'tiff'))]
+    image_files = [f for f in os.listdir(input_folder) if f.lower().endswith(('jpg','bmp','jpeg', 'png', 'tif', 'tiff'))]
     for filename in tqdm(image_files, desc="Processing images", ncols=100):
         img_path = os.path.join(input_folder, filename)
         try:
