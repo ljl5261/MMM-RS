@@ -53,8 +53,8 @@ def process_folder(input_folder, output_folder, tile_size=(512, 512)):
 
 
 def main():
-    folders = ["NIR", "RGB", "sar"]
-    output_folders = ["NIR_jpg", "RGB_jpg", "sar_jpg"]
+    folders = ["NIR", "RGB", "SAR"]
+    output_folders = ["NIR_jpg", "RGB_jpg", "SAR_jpg"]
 
     for input_folder, output_folder in zip(folders, output_folders):
         process_folder(input_folder, output_folder)
