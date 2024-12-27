@@ -11,7 +11,7 @@ from basicsr.archs.rrdbnet_arch import RRDBNet
 
 upsampler = RealESRGANer(
     scale=2,  
-    model_path='/gpu-data/lhn/AIGC/RealESRGAN_x2plus.pth',  
+    model_path='chaofenbianlv_pth/RealESRGAN_x2plus.pth',  
     model=RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=2), 
     tile=0,
     tile_pad=10,
