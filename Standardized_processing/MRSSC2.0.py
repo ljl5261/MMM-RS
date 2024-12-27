@@ -11,7 +11,7 @@ from basicsr.archs.rrdbnet_arch import RRDBNet
 
 upsampler = RealESRGANer(
     scale=2,  
-    model_path='chaofenbianlv_pth/RealESRGAN_x2plus.pth',  
+    model_path='/gpu-data/lhn/AIGC/RealESRGAN_x2plus.pth',  
     model=RRDBNet(num_in_ch=3, num_out_ch=3, num_feat=64, num_block=23, num_grow_ch=32, scale=2), 
     tile=0,
     tile_pad=10,
@@ -41,6 +41,7 @@ def super_resolve_image(image):
 def process_images(input_folder, output_folder):
     
     os.makedirs(output_folder, exist_ok=True)
+    folder_name = os.path.basename(input_folder)
 
     for filename in tqdm(os.listdir(input_folder), desc="Processing images"):
         if filename.lower().endswith(('png', 'jpg', 'jpeg', 'tif', 'tiff')):
@@ -48,14 +49,14 @@ def process_images(input_folder, output_folder):
             try:
                 with Image.open(img_path) as img:
                     sr_img = super_resolve_image(img)
-                    new_name = 'RGB_' + os.path.splitext(filename)[0] + '.jpg'
+                    new_name = f'RGB_{folder_name}_{os.path.splitext(filename)[0] }.jpg'
                     sr_img.save(os.path.join(output_folder, new_name))
             except Exception as e:
                 print(f"Error processing {img_path}: {e}")
 
 
 # path
-input_folder = './dataset/MRSSC2.0'
-output_folder = './dataset/MRSSC2.0_jpg'
+input_folder = './MRSSC2.0/city'
+output_folder = './MRSSC2.0_jpg5'
 
 process_images(input_folder, output_folder)
