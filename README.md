@@ -1,8 +1,7 @@
 # [MMM-RS Dataset](https://arxiv.org/abs/2410.22362)
 # A Multi-modal, Multi-GSD, Multi-scene Remote Sensing Dataset and Benchmark for Text-to-Image Generation (NeurIPS 2024)
 
-[![](https://img.shields.io/badge/Paper-Link-red
-)]([http://arxiv.org/abs/2412.11710](https://arxiv.org/abs/2410.22362))
+[![](https://img.shields.io/badge/Paper-Link-red)](https://arxiv.org/abs/2410.22362)
 ![](https://img.shields.io/badge/License-CC_BY_NC_SA-yellow)
 
 This work provides a multi-modal, multi-GSD, multi-scene remote sensing dataset for text-to-image generation in diverse remote sensing scenarios, comprising approximately 2.1 million text-image pairs.
