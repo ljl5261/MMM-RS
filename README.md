@@ -1,7 +1,15 @@
-# MMM-RS
-## Abstract
+# [MMM-RS Dataset](https://arxiv.org/abs/2410.22362)
+# A Multi-modal, Multi-GSD, Multi-scene Remote Sensing Dataset and Benchmark for Text-to-Image Generation (NeurIPS 2024)
 
-  Recently, diffusion-based generative paradigms have achieved impressive general image generation capabilities with text prompts due to their accurate distribution modeling and stable training processes. However, generating diverse remote sensing (RS) images, which are significantly different from general images in terms of scale and perspective, remains a formidable challenge. This is primarily due to the lack of a comprehensive RS image generation dataset encompassing various modalities, ground sample distances (GSD), and scenes.In this paper, we propose a Multi-modal, Multi-GSD, Multi-scene Remote Sensing (MMM-RS) dataset and benchmark for text-to-image generation in diverse remote sensing scenarios. Specifically, we first collected nine publicly available RS datasets and standardized all samples. To bridge RS images with textual semantic information, we utilized a large-scale pretrained vision-language model to automatically generate text prompts, followed by hand-crafted rectifications, resulting in information-rich text-image pairs (including multi-modal images).We designed methods to obtain images with different GSD and various environmental conditions (e.g., low-light, foggy) in a single sample. Through extensive manual screening and refining annotations, we ultimately obtained the MMM-RS dataset, comprising approximately 2.1 million text-image pairs.Extensive experimental results verify that our proposed MMM-RS dataset allows off-the-shelf diffusion models to generate diverse RS images across various modalities, scenes, weather conditions, and GSD.
+[![](https://img.shields.io/badge/Paper-Link-red
+)]([http://arxiv.org/abs/2412.11710](https://arxiv.org/abs/2410.22362))
+![](https://img.shields.io/badge/License-CC_BY_NC_SA-yellow)
+
+This work provides a multi-modal, multi-GSD, multi-scene remote sensing dataset for text-to-image generation in diverse remote sensing scenarios, comprising approximately 2.1 million text-image pairs.
+
+## Overview of MMM-RS Dataset
+
+
 
 ## Dataset format
 Download the MMM-RS.zip file from the link provided below. The data set directory should look like this:
