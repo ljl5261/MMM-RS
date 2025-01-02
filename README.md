@@ -18,7 +18,7 @@ This work provides a multi-modal, multi-GSD, multi-scene remote sensing dataset 
 ## Dataset Acquisition and Usage
 
 We provide the dataset standardization codes for nine datasets in `./Standardized_processing/`, where each dataset is accompanied by an individual processing code. 
-Note that the first line of each code gives the original download link for each dataset, and the users need to download the original dataset before running the codes to get the MMM-RS.
+Note that the first line of each code gives the original download link for each dataset, and the users need to download the original dataset before running the codes to obtain the MMM-RS.
 
 For the multi-weather dataset, we provide the processed images in [Google Drive](xxxx), and all annotations are provided in [Google Drive](xxxx) with **JSON** format.
 In addition, we also provide a [Baidu Drive link](https://pan.baidu.com/s/1YKH17s-0MnPR8wOIziloVw?pwd=herm).
