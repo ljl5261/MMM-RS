@@ -57,6 +57,6 @@ def process_images(input_folder, output_folder):
 
 # path
 input_folder = './MRSSC2.0/city'
-output_folder = './MRSSC2.0_jpg5'
+output_folder = './MRSSC2.0_jpg'
 
 process_images(input_folder, output_folder)
